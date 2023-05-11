@@ -1,0 +1,71 @@
+.registr {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f5;
+}
+
+.registr_form_content {
+    width: 500px;
+    height: auto;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.input_style {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 18px;
+    color: dodgerblue;
+}
+
+.submit_btn_style {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(18, 117, 215);
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.submit_btn_style:hover {
+    background-color: white;
+    color: rgb(18, 117, 215);
+    border-color: rgb(18, 117, 215);
+    transition: .5s;
+}
+
+.login_pages_btn_style {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.login_pages_btn_style:hover {
+    background-color: white;
+    color: green;
+    border-color: green;
+    transition: .5s;
+}

@@ -1,0 +1,136 @@
+.rightbar {
+    flex: 3.5;
+}
+
+.userses {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.online_images {
+    position: relative;
+}
+
+.online_img {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(11, 194, 11);
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.username {
+    font-size: 18px;
+}
+
+.online_images {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.rightbarWrapper {
+    padding: 20px;
+}
+
+.birthdayContainer {
+    display: flex;
+    align-items: center;
+}
+
+.birthdayImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.birthdayText {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.rightBarAd {
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.rightBarTitle {
+    margin-bottom: 20px;
+}
+
+.rightBarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightbarTitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rightbarInfo {
+    margin-bottom: 30px;
+}
+
+.rightbarInfoItem {
+    margin-bottom: 10px;
+}
+
+.rightbarInfoKey {
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.rightbarInfoValue {
+    font-weight: 300;
+}
+
+.rightbarFollowings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightbarFollowing {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.rightbarFollowingImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.exit_btn {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.exit_btn:hover {
+    background-color: white;
+    border-color: red;
+    color: red;
+    transition: .5s;
+}
